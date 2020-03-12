@@ -13,12 +13,10 @@ class PDOConnection
      */
     public function __construct() 
     {
-        $dns= 'mysql:host=marceloratton.com;dbname=mratton_clientes';
-        $username= 'mratton_clientes';
-        $passwd= 'R32X]X6bFHg~';
+        $dns= 'sqlite:./database-file.db';
 
         try {
-            $this->conn= new PDO($dns, $username, $passwd);
+            $this->conn= new PDO($dns);
         } catch (PDOException $e) {
             debug($e);
         }

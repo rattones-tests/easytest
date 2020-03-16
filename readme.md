@@ -14,4 +14,4 @@ para o teste foi utilizado o PDO com a base de dados em SQLite 3, para facilitar
 
 o framework PHP utilizado no projeto foi desenvolvido por mim para estudos e testes como este, ele pode ser encontrado no repositório dele aqui no GitHub
 
-(Easy-API)[https://github.com/rattones/easy-api]
+[Easy-API](https://github.com/rattones/easy-api)
